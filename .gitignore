@@ -4,4 +4,3 @@ backend/db
 backend/node_modules
 client/package-lock.json
 client/dll
-client/dist 
