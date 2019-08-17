@@ -1,0 +1,42 @@
+
+.header{
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 2px 8px #f0f1f2;
+  margin-bottom: 40px;
+    .col_wrap{
+        float: right;
+        .ant-menu-horizontal{
+          border-bottom: 0 !important;
+          
+        }
+        .ant-menu-item-selected{
+          color:#1890ff !important;
+        }
+        .ant-menu-item {
+          border-bottom: 0;
+          color: #71777c;
+        }
+        .ant-menu-item:hover{
+          border-bottom: 0;
+          color: #71777c;
+        }
+      
+          .header_wrap{
+            height: 100%;
+          }
+          .Menu{
+            height: 100%;
+            margin-right: 20px;
+            display: inline-block;
+            vertical-align: middle;
+             
+          }
+         
+          .login_btn{
+             margin-right: 10px;
+          }
+        
+    }
+   
+}

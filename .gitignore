@@ -1,0 +1,7 @@
+# Dependency directories
+client/node_modules
+backend/db
+backend/node_modules
+client/package-lock.json
+client/dll
+client/dist 

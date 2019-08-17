@@ -1,0 +1,23 @@
+{
+    "short_name": "Blog",
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Blog",
+    "display": "standalone",
+    "theme_color": "transparent",
+    "description": "Share More, Gain More. - D.D Blog",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "gcm_sender_id": "...",
+    "applicationServerKey": "...",
+    "icons": [
+      {
+        "src": "maniicon.ico",
+        "sizes": "144x144",
+        "type": "image/ico"
+      }
+  ],
+  "start_url": "/index.html"
+}

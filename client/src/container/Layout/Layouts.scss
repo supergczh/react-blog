@@ -1,0 +1,28 @@
+.main-container {
+  position: relative;
+  min-height:calc(100vh - 65px - 40px);
+  padding: 0 240px 0 40px;
+  overflow: hidden;
+  background: #fff;
+}
+.ant-btn-primary{
+  border: 1px solid #1890ff !important;
+  background: #fff;
+  color:#1890ff;
+}
+.ant-btn-danger{
+  color:#f5222d;
+  background: #fff;
+  border: 1px solid #f5222d !important;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+
+  color:#1890ff;
+  background-color: #fff !important;
+  border-color: #1890ff !important;
+}
+.ant-btn-danger:hover, .ant-btn-danger:focus{
+  background-color: #fff !important;
+  color:#f5222d;
+  border-color: #f5222d !important;
+}
