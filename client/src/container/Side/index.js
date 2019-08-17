@@ -55,7 +55,7 @@ const { Sider } = Layout;
            <div className="Sidewrap">
                  <img className="Avatar"  src="https://avatars2.githubusercontent.com/u/37320849?s=460&v=4" />
                  <h5>灰太狼</h5>
-                 <div>可恶的喜羊羊，我一定会回来的</div>
+                 <div>可恶的喜羊羊，我一定会回来的222</div>
                  <ul className="icon">
                      <li><Icon type="github" style={{fontSize: '16px',marginRight:'7px'}} />
                      <a target="_blank"  href="https://github.com/supergczh">github</a>
