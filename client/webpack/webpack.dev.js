@@ -1,6 +1,7 @@
 const path = require("path");
 const merge = require("webpack-merge");
 const bash = require("./webpack.bash.js");
+const AddAssetHtmlPlugin=require("add-asset-html-webpack-plugin")
 const webpack = require("webpack");
 
 const PUBLIC_PATH = "/";
@@ -42,6 +43,9 @@ module.exports = merge(bash, {
     ]
   },
   plugins: [
+    new AddAssetHtmlPlugin({
+      filepath: path.resolve(__dirname,'../dll/*.dll.js') // 这个路径是你的dll文件路径 
+    }),
     new webpack.DllReferencePlugin({
       context: __dirname,
       manifest: require('../dll/library.manifest.json'),

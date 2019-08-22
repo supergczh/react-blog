@@ -2,7 +2,6 @@ const path = require("path");
 const WebpackBar = require("webpackbar");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin"); 
-const AddAssetHtmlPlugin=require("add-asset-html-webpack-plugin")
 // const os = require('os');
 // const HappyPack = require('happypack');//项目文件过大时可开启,
 // const happyThreadPool = HappyPack.ThreadPool({ size: os.cpus().length });
@@ -47,9 +46,6 @@ module.exports = {
       chunks: ["app"],
       hash: false,
       favicon: "public/maniicon.ico" //网页icon
-    }),
-    new AddAssetHtmlPlugin({
-      filepath: path.resolve(__dirname,'../dll/*.dll.js') // 这个路径是你的dll文件路径 
     }),
     // new HappyPack({
     //   loaders: ['babel-loader'],
